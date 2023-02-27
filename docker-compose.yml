@@ -12,6 +12,4 @@ services:
       - './:/go/src/'
     env_file: '.env'
     command:
-      - go
-      - run
       - ./src/main.go
